@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic-Tac-Toe | Arpita Srivastav</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <h1>Tic-Tac-Toe</h1>
+    <p class="status" id="status">Player X's turn</p>
+    <div class="board">
+      <button class="cell"></button><button class="cell"></button><button class="cell"></button>
+      <button class="cell"></button><button class="cell"></button><button class="cell"></button>
+      <button class="cell"></button><button class="cell"></button><button class="cell"></button>
+    </div>
+    <div class="actions">
+      <button id="resetBtn">Reset Game</button>
+      <a href="../index.html">Back to Portfolio</a>
+    </div>
+  </div>
+
+  <div id="popup" class="popup" aria-hidden="true">
+    <div class="popup-content" role="dialog" aria-modal="true" aria-labelledby="popupTitle">
+      <div class="popup-icon">🏆</div>
+      <h2 id="popupTitle">Game Over</h2>
+      <p id="popupMessage">Player X wins!</p>
+      <button id="popupBtn" type="button">Play Again</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

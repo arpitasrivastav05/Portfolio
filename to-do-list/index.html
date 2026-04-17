@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app">
+    <div class="title-row">
+      <h1 id="listTitle">To-Do List</h1>
+      <button id="editTitleBtn" class="title-edit-btn">Edit Name</button>
+    </div>
+
+    <div class="input-row">
+      <input type="text" id="taskInput" placeholder="Enter a task..." />
+      <button id="addTaskBtn">Add</button>
+    </div>
+
+    <div class="actions">
+      <button id="showAllBtn">All</button>
+      <button id="showActiveBtn">Active</button>
+      <button id="showCompletedBtn">Completed</button>
+      <button id="clearCompletedBtn">Clear Completed</button>
+    </div>
+
+    <ul id="taskList"></ul>
+    <p id="emptyState" class="empty-state">No tasks yet. Add one above.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
